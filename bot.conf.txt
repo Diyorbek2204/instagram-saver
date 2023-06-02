@@ -1,0 +1,10 @@
+[program:instagram]
+directory=C:\Users\lenovo\Downloads
+command=python3 app.py
+
+autostart=true
+autorestart=true
+environment=HOME="C:\Users\lenovo\",USER="ubuntu"
+
+stderr_logfile=C:\Users\lenovo\Downloads/logfile_err.log
+stdout_logfile=C:\Users\lenovo\Downloads/logfile.log
